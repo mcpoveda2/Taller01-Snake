@@ -69,7 +69,7 @@ public class GUIView extends JPanel {
 
 		// Create a new choice on the panel, and add all available games
 		this.gameChooser = new JComboBox(this.gameFactory.getGameNames());
-		this.guiPanel.add(this.gameChooser);
+		this.guiPanel.add(this.gameChooser);A
 
 		// Add both the new panel and the GameView to myself
 		add(this.gameView, BorderLayout.CENTER);
